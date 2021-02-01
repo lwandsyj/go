@@ -1,6 +1,6 @@
-package main;
+package main
 import "fmt"
+
 func main(){
-	var b string 
-	fmt.Println(b)
+	fmt.Println("hello world")
 }
