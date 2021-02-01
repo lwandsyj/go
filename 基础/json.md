@@ -38,3 +38,17 @@
             fmt.Println("res2 :", res2)
             fmt.Println(res2.Code)
         }
+
+2. MarshalIndent : 是会格式化输出
+
+   Marshal: 
+
+   ![avatar](../assets/json.jpg)
+
+   MarshalIndent:
+
+   ![avatar](../assets/json1.jpg)
+
+3. json 
+
+   ![avatar](../assets/json2.jpg)
