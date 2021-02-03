@@ -2,10 +2,12 @@ package main
 
 import (
 	"fmt"
-	"strconv"
+	"os"
 )
 
 func main(){
-	a
-	 
+	a:=os.Args
+	fmt.Println(a)
+	args:=a[1:]
+	fmt.Println(args)
 }
