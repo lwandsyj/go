@@ -30,3 +30,10 @@
             delete(c, "pwd") //map[age:14 name:张三]
             fmt.Println(c)
         }
+
+5. 循环map
+
+        for key,value :=range m{
+            key: map 的键值
+            value: key 对应的value
+        }

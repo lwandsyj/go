@@ -8,6 +8,6 @@ import (
 func main() {
 	a := "hello"
 	b := "123"
-	fmt.Println(strconv.Atoi(a))
-	fmt.Println(strconv.Atoi(b))
+	fmt.Println(strconv.Atoi(a)...)
+	fmt.Println(strconv.Atoi(b)...)
 }
