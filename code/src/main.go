@@ -6,8 +6,9 @@ import (
 )
 
 func main(){
-	a:=os.Args
-	fmt.Println(a)
-	args:=a[1:]
-	fmt.Println(args)
+	var a int32 =2
+	var b int64
+
+	b=a
+	fmt.Println(b)
 }
