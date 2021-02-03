@@ -51,5 +51,5 @@ func convertNumToStr() {
 }
 
 func main() {
-	convertNumToStr()
+
 }
