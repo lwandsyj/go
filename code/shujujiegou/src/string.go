@@ -2,6 +2,7 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
 	"strings"
 )
@@ -112,5 +113,5 @@ func stringsStr() {
 	fmt.Println(strings.Trim("¡¡¡Helloi, Gophers!!!", "!¡"))
 }
 func main() {
-	stringsStr()
+	a := 12
 }
