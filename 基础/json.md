@@ -9,6 +9,7 @@
         )
 
         type Result struct {
+            // 属性名称首字母大写，小写的不能正常序列化
             Code    int    `json:"code"` // 对应的json 的值
             Message string `json:"msg"`  // 对应的json 的值
         }
@@ -52,3 +53,7 @@
 3. json 
 
    ![avatar](../assets/json2.jpg)
+
+4. json 解析结构体
+
+   ![image](../assets/json-str.jpg)
